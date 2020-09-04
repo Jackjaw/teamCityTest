@@ -1,7 +1,6 @@
 package com.tctest.order.service;
 
 import com.tctest.model.Order;
-import com.tctest.model.Print;
 import org.springframework.stereotype.Service;
 
 import java.util.Date;
@@ -15,9 +14,6 @@ public class OrderService {
         order.setOrderId(userId*100+typeId);
         order.setTypeId(typeId);
         order.setStatus(1);
-
-        Print print=new Print();
-        print.print();
         return order;
     }
 }
