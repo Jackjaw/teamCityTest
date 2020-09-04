@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/model/pom.xml" />
         <option value="$PROJECT_DIR$/order/pom.xml" />
+        <option value="$PROJECT_DIR$/typeModel/pom.xml" />
       </list>
     </option>
   </component>
